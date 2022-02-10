@@ -1,0 +1,47 @@
+/*https://icon-icons.com/ru/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B8/youtube*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.ganyu-image {
+    background-image: url("../images/ganyu.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.social-image {
+    width: 64px;
+}
+
+.element-card {
+    overflow: hidden;
+    border: none;
+}
+
+.element-image {
+    height: 80px;
+    margin: -120px -90px -90px -90px;
+    position: relative;
+}
+
+.card {
+    width: 18rem;
+    overflow: hidden;
+}
+
+.card img {
+    margin: 0 0 -18rem 0;
+}
+
+.modal-image-character {
+    height: 34rem;
+    width: auto;
+}
+
+.modal-img  {
+    height: 86px;
+    width: 86px;
+}
