@@ -38,6 +38,24 @@ html, body {
     position: relative;
 }
 
+@media (max-width: 992px) {
+    div.list-element > div > a > div > span {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .element-image {
+        margin: 0 0 0 0;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 993px) {
+    .element-image {
+        margin: -120px -90px -90px -70px;
+    }
+}
+
 .character-card {
     width: 18rem;
     overflow: hidden;
@@ -46,6 +64,13 @@ html, body {
 .character-card img {
     margin: 0 0 -18rem 0;
 }
+
+/*@media (max-width: 1200px) {*/
+/*    .character-card {*/
+/*        max-width: 230px;*/
+/*        max-height: 250px;*/
+/*    }*/
+/*}*/
 
 @media (min-width: 576px) {
     .modal-dialog {
