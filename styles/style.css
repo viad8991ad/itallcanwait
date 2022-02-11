@@ -53,3 +53,26 @@ html, body {
         margin: 1.75rem auto;
     }
 }
+
+.btn-purple {
+    color: white;
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn.btn-purple:hover {
+    background-color: #784bc6;
+    border-color: #784bc6;
+}
+
+.btn-teal {
+    color: black;
+    background-color: #20c997;
+    border-color: #20c997;
+}
+
+.btn.btn-teal:hover {
+    color: black;
+    background-color: #32d2a3;
+    border-color: #32d2a3;
+}
