@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="styles/style.css">
 
     <title>ItAllCanWait</title>
+    <link rel="icon" href="images/itall.png">
 </head>
 <body>
 
 <!-- navbar -->
-<!-- fixed-top -->
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
         <span class="navbar-brand mb-0 h1">ItAllCanWait</span>
     </div>
@@ -25,7 +25,13 @@
 <!-- end navbar -->
 
 <div class="padding-top h-100 ganyu-image">
-    <!-- Все это может подождать -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 align-self-center">
+                <h1 class="text-uppercase">все это может подождать</h1>
+            </div>
+        </div>
+    </div>
 </div>
 
 <main>
@@ -33,34 +39,34 @@
     <div class="container border-top">
         <div class="row justify-content-center gy-4 gx-lg-4 mt-5">
             <div class="col-12 mb-3 text-center">
-                <h2 class="fs-3 fs-sm-4">Социальные сети:</h2>
+                <h2 class="fs-3 fs-sm-4 text-uppercase">Социальные сети</h2>
             </div>
             <div class="col-lg-5">
                 <a class="d-flex align-items-center text-decoration-none text-black"
                    href="https://www.youtube.com/c/ItAllCanWait_streamer">
-                    <img class="col-6 social-image pe-2" src="images/youtube.svg" alt="YouTube">
-                    <h4 class="text-center m-0">Тюлень Аркадий - ItAllCanWait</h4>
+                    <img class="col-6 social-image pe-2" src="images/social/youtube.svg" alt="YouTube">
+                    <h4 class="m-0">Тюлень Аркадий - ItAllCanWait</h4>
                 </a>
             </div>
             <div class="col-lg-5">
                 <a class="d-flex align-items-center text-decoration-none text-black"
                    href="https://vk.com/itallcanwait">
-                    <img class="col-6 social-image pe-2" src="images/vk.svg" alt="Twitch">
-                    <h4 class="text-center m-0">ItAllCanWait</h4>
+                    <img class="col-6 social-image pe-2" src="images/social/vk.svg" alt="Twitch">
+                    <h4 class="m-0">ItAllCanWait</h4>
                 </a>
             </div>
             <div class="col-lg-5">
                 <a class="d-flex align-items-center text-decoration-none text-black"
                    href="https://www.twitch.tv/itallcanwait_youtube">
-                    <img class="col-6 social-image pe-2" src="images/twitch.svg" alt="Spotify">
-                    <h4 class="text-center m-0">itallcanwait_youtube</h4>
+                    <img class="col-6 social-image pe-2" src="images/social/twitch.svg" alt="Spotify">
+                    <h4 class="m-0">itallcanwait_youtube</h4>
                 </a>
             </div>
             <div class="col-lg-5">
                 <a class="d-flex align-items-center text-decoration-none text-black"
                    href="https://open.spotify.com/artist/4h1UN8og7X7LBh2eZMSFxb?si=_cJ28eEjSTC2ynAGcp-oyg&nd=1">
-                    <img class="col-6 social-image pe-2" src="images/spotify.svg" alt="VK">
-                    <h4 class="text-center m-0">ItAllCanWait</h4>
+                    <img class="col-6 social-image pe-2" src="images/social/spotify.svg" alt="VK">
+                    <h4 class="m-0">ItAllCanWait</h4>
                 </a>
             </div>
         </div>
@@ -71,117 +77,139 @@
     <div class="container mt-5 border-top">
         <div class="row justify-content-center gy-4 gx-lg-4 mt-5">
             <div class="col-12 mb-3">
-                <h2 class="fs-3 fs-sm-4 text-center">Сборки:</h2>
+                <h2 class="fs-3 fs-sm-4 text-center text-uppercase">Сборки</h2>
                 <div class="row">
                     <div class="col-2">
                         <div id="list-example" class="list-group">
                             <div class="list-group-item list-group-item-action element-card shadow bg-body rounded mb-3 ">
-                                <img class="col-6 card-img element-image" src="images/Element_Pyro.svg" alt="pyro"/>
-                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                                    <a class="text-decoration-none text-uppercase text-black" href="#pyro">Пиро</a>
-                                </div>
+                                <img class="col-6 card-img element-image" src="images/element/Pyro.svg" alt="pyro"/>
+                                <a href="#pyro">
+                                    <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                        <span class="text-decoration-none text-uppercase text-black">Пиро</span>
+                                    </div>
+                                </a>
                             </div>
 
                             <div class="list-group-item list-group-item-action element-card shadow bg-body rounded mb-3 ">
-                                <img class="col-6 card-img element-image" src="images/Element_Hydro.svg" alt="hydro"/>
-                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                                    <a class="text-decoration-none text-uppercase text-black" href="#hydro">Гидро</a>
-                                </div>
+                                <img class="col-6 card-img element-image" src="images/element/Hydro.svg" alt="hydro"/>
+                                <a href="#hydro">
+                                    <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                        <span class="text-decoration-none text-uppercase text-black">Гидро</span>
+                                    </div>
+                                </a>
                             </div>
 
                             <div class="list-group-item list-group-item-action element-card shadow bg-body rounded mb-3 ">
-                                <img class="col-6 card-img element-image" src="images/Element_Cryo.svg" alt="cryo"/>
-                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                                    <a class="text-decoration-none text-uppercase text-black" href="#cryo">Крио</a>
-                                </div>
+                                <img class="col-6 card-img element-image" src="images/element/Cryo.svg" alt="cryo"/>
+                                <a href="#cryo">
+                                    <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                        <span class="text-decoration-none text-uppercase text-black">Крио</span>
+                                    </div>
+                                </a>
                             </div>
 
                             <div class="list-group-item list-group-item-action element-card shadow bg-body rounded mb-3">
-                                <img class="col-6 card-img element-image" src="images/Element_Electro.svg"
+                                <img class="col-6 card-img element-image" src="images/element/Electro.svg"
                                      alt="electro"/>
-                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                                    <a class="text-decoration-none text-uppercase text-black"
-                                       href="#electro">Электро</a>
-                                </div>
+                                <a href="#electro">
+                                    <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                        <span class="text-decoration-none text-uppercase text-black">Электро</span>
+                                    </div>
+                                </a>
                             </div>
 
                             <div class="list-group-item list-group-item-action element-card shadow bg-body rounded mb-3 ">
-                                <img class="col-6 card-img element-image" src="images/Element_Geo.svg" alt="geo"/>
-                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                                    <a class="text-decoration-none text-uppercase text-black" href="#geo">Гео</a>
-                                </div>
+                                <img class="col-6 card-img element-image" src="images/element/Geo.svg" alt="geo"/>
+                                <a href="#geo">
+                                    <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                        <span class="text-decoration-none text-uppercase text-black">Гео</span>
+                                    </div>
+                                </a>
                             </div>
 
                             <div class="list-group-item list-group-item-action element-card shadow bg-body rounded mb-3">
-                                <img class="col-6 card-img element-image" src="images/Element_Anemo.svg" alt="anemo"/>
-                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                                    <a class="text-decoration-none text-uppercase text-black" href="#anemo">Анемо</a>
-                                </div>
+                                <img class="col-6 card-img element-image" src="images/element/Anemo.svg" alt="anemo"/>
+                                <a href="#anemo">
+                                    <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                        <span class="text-decoration-none text-uppercase text-black">Анемо</span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-10">
                         <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
                              class="scrollspy-example" tabindex="0">
-                            <h4 id="pyro">Пиро</h4>
+                            <h4 class="ms-2" id="pyro">Пиро</h4>
                             <div class="d-flex">
-                                <div class="card m-2">
-                                    <img src="images/HuTao.png" class="card-img-top" alt="Ху Тао">
+                                <div class="card character-card m-2">
+                                    <img src="images/characters/HuTao.png" class="card-img-top" loading="lazy"
+                                         alt="Ху Тао">
                                     <div class="card-body">
                                         <h5 class="card-title">Ху Тао</h5>
                                         <button type="button" class="btn btn-primary btn-danger" data-bs-toggle="modal"
                                                 data-bs-target="#exampleModal"
-                                                data-bs-whatever="HuTao">Подробнее
+                                                data-bs-whatever="xiao.png">Подробнее
                                         </button>
                                     </div>
                                 </div>
 
-                                <div class="card m-2">
-                                    <img src="images/diluc.png" class="card-img-top" alt="Дилюк">
+                                <div class="card character-card m-2">
+                                    <img src="images/characters/Diluc.png" class="card-img-top" loading="lazy"
+                                         alt="Дилюк">
                                     <div class="card-body">
                                         <h5 class="card-title">Дилюк</h5>
                                         <button type="button" class="btn btn-primary btn-danger" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal" data-bs-whatever="Diluc">Подробнее
+                                                data-bs-target="#exampleModal" data-bs-whatever="xiao.png">Подробнее
                                         </button>
                                     </div>
                                 </div>
 
-                                <div class="card m-2">
-                                    <img src="images/Feiyan.png" class="card-img-top" alt="Янь Фей">
+                                <div class="card character-card m-2">
+                                    <img src="images/characters/Feiyan.png" class="card-img-top" loading="lazy"
+                                         alt="Янь Фей">
                                     <div class="card-body">
                                         <h5 class="card-title">Янь Фей</h5>
-                                        <a href="#" class="btn btn-primary btn-danger">Подробнее</a>
+                                        <button type="button" class="btn btn-primary btn-danger" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal" data-bs-whatever="xiao.png">Подробнее
+                                        </button>
                                     </div>
                                 </div>
                             </div>
 
-                            <h4 id="hydro">Гидро</h4>
+                            <h4 class="ms-2 mt-3" id="hydro">Гидро</h4>
                             <div class="d-flex">
-                                <div class="card m-2">
-                                    <img src="images/Xingqiu.png" class="card-img-top" alt="Син Цю">
+                                <div class="card character-card m-2">
+                                    <img src="images/characters/Xingqiu.png" class="card-img-top" loading="lazy"
+                                         alt="Син Цю">
                                     <div class="card-body">
                                         <h5 class="card-title">Син Цю</h5>
-                                        <a href="#" class="btn btn-primary btn-primary">Подробнее</a>
+                                        <button type="button" class="btn btn-primary btn-primary" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal" data-bs-whatever="xiao.png">Подробнее
+                                        </button>
                                     </div>
                                 </div>
                             </div>
 
-                            <h4 id="cryo">Крио</h4>
+                            <h4 class="ms-2 mt-3" id="cryo">Крио</h4>
                             <div class="d-flex">
-                                <div class="card m-2">
-                                    <img src="images/Ganyu.png" class="card-img-top" alt="Гань Юй">
+                                <div class="card character-card m-2">
+                                    <img src="images/characters/Ganyu.png" class="card-img-top" loading="lazy"
+                                         alt="Гань Юй">
                                     <div class="card-body">
                                         <h5 class="card-title">Гань Юй</h5>
-                                        <a href="#" class="btn btn-primary btn-info">Подробнее</a>
+                                        <button type="button" class="btn btn-primary btn-info" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal" data-bs-whatever="xiao.png">Подробнее
+                                        </button>
                                     </div>
                                 </div>
                             </div>
 
-                            <h4 id="electro">Электро</h4>
+                            <h4 class="ms-2 mt-3" id="electro">Электро</h4>
 
-                            <h4 id="geo">Гео</h4>
+                            <h4 class="ms-2 mt-3" id="geo">Гео</h4>
 
-                            <h4 id="anemo">Анемо</h4>
+                            <h4 class="ms-2 mt-3" id="anemo">Анемо</h4>
 
                         </div>
                     </div>
@@ -195,28 +223,11 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-                <div class="modal-body d-flex justify-content-between">
-                    <div class="d-flex">
-                        <div class="weapon d-flex flex-md-column justify-content-between">
-                            <p class="fs-2 lvl_character"></p>
-                            <img class="modal-img weapon-img">
-                            <img class="modal-img artefact-img-1">
-                            <img class="modal-img artefact-img-2">
-                            <img class="modal-img artefact-img-3">
-                            <img class="modal-img artefact-img-4">
-                            <img class="modal-img artefact-img-5">
-                        </div>
-                    </div>
+                <div class="card bg-dark">
                     <img class="card-img-top modal-image-character">
                 </div>
             </div>
         </div>
-    </div>
 </main>
 
 <!-- Bootstrap Bundle with Popper -->

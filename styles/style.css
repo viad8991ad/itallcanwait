@@ -10,6 +10,17 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 992px) {
+    .ganyu-image {
+        background-position: top right -250px;
+    }
 }
 
 .social-image {
@@ -27,21 +38,18 @@ html, body {
     position: relative;
 }
 
-.card {
+.character-card {
     width: 18rem;
     overflow: hidden;
 }
 
-.card img {
+.character-card img {
     margin: 0 0 -18rem 0;
 }
 
-.modal-image-character {
-    height: 34rem;
-    width: auto;
-}
-
-.modal-img  {
-    height: 86px;
-    width: 86px;
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 80rem;
+        margin: 1.75rem auto;
+    }
 }
