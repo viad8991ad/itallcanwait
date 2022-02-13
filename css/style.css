@@ -7,7 +7,7 @@ body {
 }
 
 .ganyu-image {
-	background-image: url("../images/ganyu.png");
+	background-image: url("../img/ganyu.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right top;
@@ -94,4 +94,9 @@ body {
 	color: black;
 	background-color: #32d2a3;
 	border-color: #32d2a3;
+}
+
+.nav-characters {
+	position: sticky;
+	top: 5em;
 }
