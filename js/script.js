@@ -1,11 +1,11 @@
-let exampleModal = document.getElementById('exampleModal');
-exampleModal.addEventListener('show.bs.modal', function (event) {
-    let button = event.relatedTarget;
-    let value = button.getAttribute('data-bs-whatever');
+let exampleModal = document.getElementById("exampleModal");
+exampleModal.addEventListener("show.bs.modal", function (event) {
+	let button = event.relatedTarget;
+	let value = button.getAttribute("data-bs-whatever");
 
-    let img_charters = exampleModal.querySelector('img.card-img-top');
-    img_charters.setAttribute("src", "images/build/" + value)
-})
+	let img_charters = exampleModal.querySelector("img.card-img-top");
+	img_charters.setAttribute("src", "images/build/" + value);
+});
 
 // const data = [{
 //     "name": "HuTao",
