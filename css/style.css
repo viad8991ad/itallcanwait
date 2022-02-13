@@ -1,0 +1,102 @@
+/*https://icon-icons.com/ru/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B8/youtube*/
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+.ganyu-image {
+	background-image: url("../img/ganyu.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right top;
+
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 992px) {
+	.ganyu-image {
+		background-position: top right -250px;
+	}
+}
+
+.social-image {
+	width: 64px;
+}
+
+.element-card {
+	overflow: hidden;
+	border: none;
+}
+
+.element-image {
+	height: 80px;
+	margin: -120px -90px -90px -90px;
+	position: relative;
+}
+
+@media (max-width: 992px) {
+	div.list-element > div > a > div > span {
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.element-image {
+		margin: 0 0 0 0;
+	}
+}
+
+@media (max-width: 1400px) and (min-width: 993px) {
+	.element-image {
+		margin: -120px -90px -90px -70px;
+	}
+}
+
+.character-card {
+	width: 18rem;
+	overflow: hidden;
+}
+
+.character-card img {
+	margin: 0 0 -18rem 0;
+}
+
+@media (min-width: 576px) {
+	.modal-dialog {
+		max-width: 80rem;
+		margin: 1.75rem auto;
+	}
+}
+
+.btn-purple {
+	color: white;
+	background-color: #6f42c1;
+	border-color: #6f42c1;
+}
+
+.btn.btn-purple:hover {
+	background-color: #784bc6;
+	border-color: #784bc6;
+}
+
+.btn-teal {
+	color: black;
+	background-color: #20c997;
+	border-color: #20c997;
+}
+
+.btn.btn-teal:hover {
+	color: black;
+	background-color: #32d2a3;
+	border-color: #32d2a3;
+}
+
+.nav-characters {
+	position: sticky;
+	top: 5em;
+}
