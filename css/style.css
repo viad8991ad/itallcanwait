@@ -100,3 +100,11 @@ body {
 	position: sticky;
 	top: 5em;
 }
+
+#wish-module button.collapsed:after  {
+    content: 'Развернуть';
+}
+
+#wish-module button:not(.collapsed):after {
+    content: 'Свернуть';
+}
