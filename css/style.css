@@ -66,6 +66,10 @@ body {
 	margin: 0 0 -18rem 0;
 }
 
+.grayscale {
+	filter: grayscale(100%);
+}
+
 @media (min-width: 576px) {
 	.modal-dialog {
 		max-width: 80rem;
@@ -80,11 +84,13 @@ body {
 }
 
 .btn.btn-purple:hover {
+	color: white;
 	background-color: #784bc6;
 	border-color: #784bc6;
 }
 
 .btn.btn-purple:focus {
+	color: white;
 	background-color: #784bc6;
 	border-color: #784bc6;
 	box-shadow: 0 0 0 .25rem #a88bda;
