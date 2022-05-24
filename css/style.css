@@ -84,6 +84,12 @@ body {
 	border-color: #784bc6;
 }
 
+.btn.btn-purple:focus {
+	background-color: #784bc6;
+	border-color: #784bc6;
+	box-shadow: 0 0 0 .25rem #a88bda;
+}
+
 .btn-teal {
 	color: black;
 	background-color: #20c997;
@@ -96,17 +102,20 @@ body {
 	border-color: #32d2a3;
 }
 
+.btn.btn-teal:focus {
+	color: black;
+	background-color: #32d2a3;
+	border-color: #32d2a3;
+	box-shadow: 0 0 0 .25rem #82e3c6;
+}
+
 .nav-characters {
 	position: sticky;
 	top: 5em;
 }
 
-#wish-module button.collapsed:after  {
-    content: 'Развернуть';
-}
-
-#wish-module button:not(.collapsed):after {
-    content: 'Свернуть';
+.wish-card {
+	position: relative;
 }
 
 .wish-image {
@@ -116,11 +125,13 @@ body {
 	opacity: 0.4;
 }
 
-.wish-card {
-	position: relative;
+@media (max-width: 768px) {
+	.wish-image {
+		margin: 80px 0 0 300px !important;
+	}
 }
 
-@media (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
 	.wish-image {
 		margin: 80px 0 0 160px !important;
 	}
